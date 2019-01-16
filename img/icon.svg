@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_3" x1="0.14325" y1="0.734375">
+   <stop offset="0" stop-color="#0000ff"/>
+   <stop offset="1" stop-color="#ffff00"/>
+  </linearGradient>
+  <linearGradient id="svg_43" spreadMethod="pad" x1="1" x2="1" y1="0.554688" y2="1">
+   <stop offset="0" stop-color="#ff0000"/>
+   <stop offset="1" stop-color="#00ffff"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <polygon cx="313.5" cy="162.5" edge="0" fill="url(#svg_3)" id="svg_12" orient="x" points="323.81414794921875,231.97606658935547 323.81414794921875,231.97606658935547 323.81414794921875,231.97606658935547 323.81414794921875,231.97606658935547 323.81414794921875,231.97606658935547 323.81414794921875,231.97606658935547 " shape="regularPoly" sides="5" stroke="#000000" stroke-width="0" strokeWidth="0" strokecolor="#000000"/>
+  <path d="m128.32698,270.248728l41.492407,-127.962581l158.000747,-55.178736l155.533047,59.15601l35.948169,128.944933l-110.712525,101.636386l-173.996772,-2.207213l-106.265073,-104.3888z" fill="#007fff" id="svg_13" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null"/>
+  <text fill="url(#svg_43)" font-family="Serif" font-size="24" font-style="normal" font-weight="bold" id="svg_1" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(5.62288 0 0 7.28376 -567.063 -694.572)" x="158.447261" xml:space="preserve" y="135.337854">E F M</text>
+  <polygon cx="281.5" cy="117.5" edge="0" fill="url(#svg_3)" id="svg_4" orient="x" shape="regularPoly" sides="5" strokeWidth="0" strokecolor="#000000"/>
+  <polygon cx="279.5" cy="93.5" edge="0" fill="url(#svg_3)" id="svg_6" orient="x" shape="regularPoly" sides="5" strokeWidth="0" strokecolor="#000000"/>
+  <polygon cx="301.5" cy="123.5" edge="0" fill="url(#svg_3)" id="svg_7" orient="x" shape="regularPoly" sides="5" strokeWidth="0" strokecolor="#000000"/>
+  <polygon cx="332.5" cy="271.5" edge="0" fill="url(#svg_3)" id="svg_8" orient="x" shape="regularPoly" sides="5" strokeWidth="0" strokecolor="#000000"/>
+ </g>
+</svg>

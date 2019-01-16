@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <meta name="author" content="Edward Fabián Mora Mora">
+    <meta name="keywords" content="Curriculum vitae,Hoja de vida digital,Html">
+    <meta name="description" content="Hoja de vida digital Edward Fabián Mora mora">
+    <title>Hoja de vida digital</title>
+  </head>
+  <body>
+    <header align="center">
+      <svg>
+        <image xlink:href="../img/icon.svg" width="300px" height="200px"></image>
+      </svg>
+      <h1>Curriculum Vitae</h1>
+      <p>
+        <h2>Edward Fábian Mora Mora</h2>
+        <h3>2 de Abril de 1991, Bogotá</h3>
+      </p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section align="center">
+      <h2>Educación</h2>
+      <table border="1" align="center">
+        <thead>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>Estado</th>
+          <th>Título Obtenido</th>
+        </thead>
+        <tr>
+          <td>2007</td>
+          <td>IED Los comuneros-Oswaldo Guayazamín</td>
+          <td>Bogotá, Colombia</td>
+          <td>Culminado</td>
+          <td>Bachiller Básico</td>
+        </tr>
+        <tr>
+          <td>2009</td>
+          <td>ISPA Instituto San Pablo Apóstol</td>
+          <td>Bogotá, Colombia</td>
+          <td>Culminado</td>
+          <td>Técnico mantenimiento equipos de cómputo</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>Fundación de Educación Superior San José</td>
+          <td>Bogotá, Colombia</td>
+          <td>Culminado</td>
+          <td>Ingeneniero de Sistemas</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Instituto de Lenguas de la Universidad Distrital</td>
+          <td>Bogotá, Colombia</td>
+          <td>En Progreso</td>
+          <td>Inglés Intermedio</td>
+        </tr>
+      </table>
+      <form autocomplete="on" name="Inputs">
+        <fieldset>
+          <legend>Agregar Estudios</legend>
+          <table align="center">
+            <tr>
+              <td><label for="fecha">Año:</label></td>
+              <td><input type="month" name="fecha" value="2016" min="1900" max="2019" required></br></td>
+            </tr>
+            <tr>
+              <td><label for="institucion">Institución:</label></td>
+              <td><input type="text" name="institucion" maxlength="100" required></td>
+            </tr>
+            <tr>
+              <td><label for="lugar">Lugar:</label></td>
+              <td><input type="text" name="fecha" maxlength="50" required></td>
+            </tr>
+            <tr>
+              <td><label for="estado">Estado:</label></td>
+              <td>
+                <select>
+                  <option>Culminado</option>
+                  <option>Sin terminar</option>
+                  <option>En progreso</option>
+                </select></td>
+            </tr>
+            <tr>
+              <td><label for="titulo">Título:</label></td>
+              <td><input type="text" name="titulo" maxlength="50" required></td>
+            </tr>
+            <tr>
+              <td><input type="submit" onclick="none"></td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </section>
+    <footer>
+      <table align="center">
+        <tr>
+          <td></td>
+          <td>
+            <ul type="none" align="center">
+              <li><strong>Copyright @ Edward Mora</strong></li>
+              <li><strong>Carrera 6f este #23-40, Bogotá</strong></li>
+              <li><strong>Email:</strong> <a href="mailto:edwardzack19@gmail.com?subject=feeback">edwardzack19@gmail.com</a></li>
+              <li><strong>Tel:</strong> 7210655</li>
+              <li><strong>Celular:</strong> 3043293323</li>
+            </ul>
+          </td>
+          <td>
+            <a href="https://www.facebook.com/EDWARDZACK" target="_blank"><img src="../img/facebook.jpg" width="32px" alt="Facebook" title="Facebook"></a>
+            <a href="https://www.instagram.com/edwardzack19/" target="_blank"><img src="../img/instagram.jpg" width="32px" alt="Instagram" title="Instagram"></a>
+            <a href="https://drive.google.com/drive/folders/1AjyEAPzycjT9bnl7LCdA8-V2UGEcm22G?usp=sharing" target="_blank"><img src="../img/drive.jpg" width="32px" alt="Drive" title="Drive"></a>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
