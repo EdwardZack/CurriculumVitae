@@ -71,15 +71,15 @@
           <table align="center">
             <tr>
               <td><label for="fecha">Año:</label></td>
-              <td><input type="month" name="fecha" value="2016" min="1900" max="2019" required></br></td>
+              <td><input type="month" name="fecha" value="2019-01" min="1920-01" max="2019-01" required></br></td>
             </tr>
             <tr>
               <td><label for="institucion">Institución:</label></td>
-              <td><input type="text" name="institucion" maxlength="100" required></td>
+              <td><input type="text" name="institucion" maxlength="100" required pattern="[A-Za-z. áéíóúÁÉÍÓÚñÑ]*" title="Solo letras, Acepta iniciales separadas con puntos"></td>
             </tr>
             <tr>
               <td><label for="lugar">Lugar:</label></td>
-              <td><input type="text" name="fecha" maxlength="50" required></td>
+              <td><input type="text" name="fecha" maxlength="50" required pattern="[A-Za-z, áéíóúÁÉÍÓÚñÑ]*" title="Solo letras; Ciudad y/o País eje: Bogotá, Colombia"></td>
             </tr>
             <tr>
               <td><label for="estado">Estado:</label></td>
@@ -92,7 +92,7 @@
             </tr>
             <tr>
               <td><label for="titulo">Título:</label></td>
-              <td><input type="text" name="titulo" maxlength="50" required></td>
+              <td><input type="text" name="titulo" maxlength="50" required pattern="[A-Za-z áéíóúÁÉÍÓÚñÑ]*" title="Solo letras"></td>
             </tr>
             <tr>
               <td><input type="submit" onclick="none"></td>
