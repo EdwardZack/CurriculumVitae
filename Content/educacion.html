@@ -33,28 +33,28 @@
           <th>Año</th>
           <th>Institución</th>
           <th>Lugar</th>
-          <th>Estado</th>
+          <th>¿Culminó?</th>
           <th>Título Obtenido</th>
         </thead>
         <tr>
           <td>2007</td>
           <td>IED Los comuneros-Oswaldo Guayazamín</td>
           <td>Bogotá, Colombia</td>
-          <td>Culminado</td>
+          <td>Sí</td>
           <td>Bachiller Básico</td>
         </tr>
         <tr>
           <td>2009</td>
           <td>ISPA Instituto San Pablo Apóstol</td>
           <td>Bogotá, Colombia</td>
-          <td>Culminado</td>
+          <td>Sí</td>
           <td>Técnico mantenimiento equipos de cómputo</td>
         </tr>
         <tr>
           <td>2016</td>
           <td>Fundación de Educación Superior San José</td>
           <td>Bogotá, Colombia</td>
-          <td>Culminado</td>
+          <td>Sí</td>
           <td>Ingeneniero de Sistemas</td>
         </tr>
         <tr>
@@ -64,14 +64,36 @@
           <td>En Progreso</td>
           <td>Inglés Intermedio</td>
         </tr>
-      </table>
+      </table></br>
       <form autocomplete="on" name="Inputs">
         <fieldset>
           <legend>Agregar Estudios</legend>
           <table align="center">
             <tr>
               <td><label for="fecha">Año:</label></td>
-              <td><input type="month" name="fecha" value="2019-01" min="1920-01" max="2019-01" required></br></td>
+              <td>
+                <select>
+                  <option value="2000">2000</option>
+                  <option value="2001">2001</option>
+                  <option value="2002">2002</option>
+                  <option value="2003">2003</option>
+                  <option value="2004">2004</option>
+                  <option value="2005">2005</option>
+                  <option value="2006">2006</option>
+                  <option value="2007">2007</option>
+                  <option value="2008">2008</option>
+                  <option value="2009">2009</option>
+                  <option value="2010">2010</option>
+                  <option value="2011">2011</option>
+                  <option value="2012">2012</option>
+                  <option value="2013">2013</option>
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019" selected>2019</option>
+                </select></br></td>
             </tr>
             <tr>
               <td><label for="institucion">Institución:</label></td>
@@ -82,17 +104,17 @@
               <td><input type="text" name="fecha" maxlength="50" required pattern="[A-Za-z, áéíóúÁÉÍÓÚñÑ]*" title="Solo letras; Ciudad y/o País eje: Bogotá, Colombia"></td>
             </tr>
             <tr>
-              <td><label for="estado">Estado:</label></td>
+              <td><label for="estado">¿Culminó?:</label></td>
               <td>
-                <select>
-                  <option>Culminado</option>
-                  <option>Sin terminar</option>
-                  <option>En progreso</option>
-                </select></td>
+                <input type="radio" name="Culmino" required> Sí
+                <input type="radio" name="Culmino"> No
+                <input type="radio" name="Culmino"> En progreso</td>
             </tr>
             <tr>
               <td><label for="titulo">Título:</label></td>
-              <td><input type="text" name="titulo" maxlength="50" required pattern="[A-Za-z áéíóúÁÉÍÓÚñÑ]*" title="Solo letras"></td>
+              <td>
+                <textarea name="texto" rows="3" cols="25"  required maxlength="100" title="Solo letras"></textarea>
+              </td>
             </tr>
             <tr>
               <td><input type="submit" onclick="none"></td>
